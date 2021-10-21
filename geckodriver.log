@@ -1,0 +1,11 @@
+1634828380297	geckodriver	INFO	Listening on 127.0.0.1:48469
+1634828380300	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57125" "-no-remote" "-profile" "/tmp/rust_mozprofileZgbVI7"
+1634828382373	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZgbVI7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57125/devtools/browser/90c10bd7-44e2-473d-b6fd-f3983fd0c72a
+1634828385070	Marionette	INFO	Listening on port 35395
+1634828385286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:21280): GLib-GObject-WARNING **: 12:00:01.064: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f599ce8ed70' of type 'MaiAtkType139'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
